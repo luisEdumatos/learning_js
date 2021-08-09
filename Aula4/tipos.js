@@ -66,3 +66,17 @@ console.log('20' === 20);
 //Igualdade Solta (Compara valores)
 console.log(20 == 20); 
 console.log('1' == 1); 
+
+//Metodos Matematicos
+console.log(Math.PI); 
+console.log(Math.sqrt(9)); 
+console.log(Math.pow(3,2));
+console.log(Math.round(0.5));
+
+//Numeros e Strings
+let num1 = '150';
+console.log(parseInt(num1) + 50); 
+let flo1 = '1.50';
+console.log(parseFloat(flo1) + 0.5);
+console.log(num1.toString()); 
+console.log(flo1.toString()); 
