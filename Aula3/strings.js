@@ -18,3 +18,19 @@ let num1 = 1;
 
 let res = str1.concat(str2, str3, num1); 
 console.log(res);  */
+
+//Concatenacao com template literals
+/* let str1 = "JavaScript";
+let str2 = "legal"; 
+
+console.log(`Escrevendo codigos em ${str1} e é ${str2}`); */
+
+//Expressoes com template literals
+/* let bool1 = true;
+
+const getValue = (num) => {
+    return num + num;
+}
+console.log(`O oporto de true é ${!bool1}`); //Negando em um literals
+console.log(`1 + 1 é ${1 + 1}`); //Operando em literals
+console.log(`Resultado: ${getValue(10)}`); //chamada de funcao no literal; */
