@@ -45,3 +45,30 @@ MaiorOuIgual = >=
 MenorOuIgual = <= 
 Diferente = !==
 */
+
+//Logica Booleana (Todos valores abaixo são considerados false na logica booleana)
+const x = 0; 
+const y = null; 
+const z = undefined; 
+const w = ""; 
+
+console.log(Boolean(x));
+console.log(Boolean(y));
+console.log(Boolean(z));
+console.log(Boolean(w));
+
+//Switch-Case
+const test = 200;
+switch(test) {
+    case 200: 
+        console.log('OK!'); 
+        break;
+    case 400:
+    case 500: 
+        console.log('Error');
+        break;
+    default:
+        console.log('Unknown value');
+        break;             
+} 
+
