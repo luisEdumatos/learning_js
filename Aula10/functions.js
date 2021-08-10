@@ -31,3 +31,41 @@ const sub = (a, b) => {
     return a - b; 
 }; //Retorno explicito
 console.log(sub(2,1)); 
+
+//fatorial normal
+const fatorial = (num) => { 
+    let result = num; 
+    while (num > 1) { 
+        num--;
+        result *= num; 
+    }
+    return result; 
+}
+
+console.log(fatorial(5));
+
+//fatorial recursivo
+const fatRecursive = (num) => { 
+    if (num < 1) { 
+        return false; 
+    }
+    return num * fatorial (num - 1); 
+}
+
+console.log(fatRecursive(5));
+
+
+//Fibonacci
+
+const fibo = (num) => { 
+    let num1 = 1; 
+    let num2 = 1;
+    let aux = 0;  
+    while (aux < num) { 
+        aux = num1 + num2;
+        num1 = num2;  
+        num2 = aux; 
+        console.log(aux); 
+    }
+}
+fibo(2); 
